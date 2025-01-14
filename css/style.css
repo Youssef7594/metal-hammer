@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
 @font-face {
     font-family: "Rubik";
     src: url(../Fonts/Rubik_Mono_One/RubikMonoOne-Regular.ttf);
@@ -9,27 +8,20 @@
     font-family: "Montserrat-Bold";
     src: url(../Fonts/Montserrat/Montserrat-Bold.ttf);
 }
-=======
 
->>>>>>> Stashed changes
-=======
 @font-face {
     font-family: RubikMonoOne-Regular;
     src: url(..//Fonts_metalhammer/Rubik_Mono_One/RubikMonoOne-Regular.ttf);
 }
->>>>>>> Stashed changes
+
 
 body {
     font-family: RubikMonoOne-Regular;
     background-color: #2b2b2b;
     color: #fff;
-<<<<<<< Updated upstream
-   
-=======
     margin: 0;
     padding: 0;
     width: 100%;
->>>>>>> Stashed changes
 }
 .skip-link {
     position: absolute;
@@ -263,8 +255,7 @@ button:hover {
     
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
 section {
 
     padding-top: 5rem;
@@ -283,9 +274,6 @@ section {
     
 }
 
-    
-  
-
 
 .partner p {
     text-align: center;
@@ -293,8 +281,7 @@ section {
     font-family: "Monserrat-Bold", sans-serif;
 }
 
-=======
->>>>>>> Stashed changes
+
 footer {
     background-color: #1a1a1a;
     padding: 20px;
@@ -311,12 +298,12 @@ footer .social-links a {
     color: #fff;
     margin: 0 10px;
     text-decoration: none;
-<<<<<<< Updated upstream
-=======
+}
+
 .container-footer {
     width: 1200px;
     max-width: 100%;
->>>>>>> Stashed changes
+
 }
 
 footer {
@@ -369,14 +356,6 @@ input[type="email"] {
     background-color: #23221e;
 }
 
-
-
-
-
-
-=======
-}
-
 .scroll-animation {
     opacity: 0;
     transform: translateY(20px);
@@ -401,4 +380,3 @@ input[type="email"] {
         border-radius: 5px;
     }
 }
->>>>>>> Stashed changes
