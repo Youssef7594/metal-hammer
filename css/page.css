@@ -1,0 +1,379 @@
+/* header{
+    background-color: #23221e;
+
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+    
+    #logo{
+        width: 90px;
+        margin-left: 30px;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+        
+        li{
+            margin-left: 20px;
+            
+
+            a{
+                text-decoration: none;
+                color: #756722;
+            }
+        }
+    }
+
+    .icone{
+        margin-right: 30px;
+
+        #panier{
+            margin-right: 120px;
+        }
+    }
+
+
+
+} */
+
+body{
+    margin: 0;
+}
+
+
+#slogan{
+    background-image: url(../images_metalhammer_1/pexels-dariusz-grosa-736355\ \(1\).jpg);
+    background-size: 100% ;
+    background-repeat:no-repeat ;
+    background-position: center -450px;
+    padding: 250px;
+    height: 60px;
+    
+
+    .texte-slogan{
+
+        h1{
+            font-size: 80px;
+            margin-top: -40px;
+            margin-left: -90px;
+            margin-bottom: 100px;
+            color: #756722;
+        }
+
+
+    }
+}
+
+    .miette-de-pain{
+        margin-left: 20px;
+
+        
+
+        
+    }
+
+    #tarif{
+        margin-top: 100px;
+        margin-left: 300px;
+        height: 750px;
+    }
+
+    #les-offres{
+        display: flex;
+        margin-left: 300px;
+        
+
+        .offre-un{
+            h3{
+                background-color: #756722;
+                border-left: solid 1px;
+                padding: 10px;
+                padding-left: 50px;
+
+                margin-bottom:0 ;
+
+            }
+
+            .detail-offre{
+                margin-top: 0;
+                margin-bottom: 0;
+                border-top: solid 1px;
+                border-left: solid 1px;
+                border-bottom: solid 1px;
+                height: 350px;
+                width: 250px;
+    
+                i{
+                    display: block;
+                    text-align: center;
+                    margin-left: 60px;
+                    margin-right: 5px;
+                    color: #948a54;
+                }
+
+                #text-detail{
+                    margin-left: 80px;
+                    
+                }
+            }
+
+            #text-title{
+                margin-top: 0;
+                margin-bottom: 0;
+                border-left: solid 1px;
+                text-align: center;
+                padding: 10px;
+
+                p{
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                    margin-left: 20px;
+                }
+    
+            }
+            
+
+            p{
+                display: flex;
+                text-align: center;
+            }
+
+            input{
+                margin-left: 110px;
+                margin-top: 20px;
+                
+            }
+
+            #text-price{
+                margin-top: 0;
+                margin-bottom: 0;
+                border-left: solid 1px;
+                
+                text-align: center;
+                padding: 10px;
+
+                p{
+                    margin-left: 90px;
+                    
+                }
+            }
+        }    
+
+        input[type="radio"] {
+            appearance: none; 
+            width: 20px; 
+            height: 20px; 
+            border: 2px solid #b2922e; 
+            border-radius: 50%;
+            outline: none;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+        }
+
+        input[type="radio"]:checked::before {
+            content: '';
+            display: block;
+            width: 10px;
+            height: 10px;
+            margin: auto;
+            border-radius: 50%;
+            background: white; 
+        }
+
+        .offre-2{
+            h3{
+                background-color: #756722;
+                border-left: solid 1px;
+                padding: 10px;
+                margin-bottom:0 ;
+                padding-left: 50px;
+
+            }
+
+            .detail-offre{
+                margin-top: 0;
+                margin-bottom: 0;
+                border-top: solid 1px;
+                border-left: solid 1px;
+                border-bottom: solid 1px;
+                height: 350px;
+                width: 250px;
+    
+                i{
+                    display: block;
+                    text-align: center;
+                    color: #948a54;
+                    margin-left: 60px;
+                    margin-right: 5px;
+                    
+                }
+
+                #text-detail{
+                    margin-left: 80px;
+                    
+                }
+            }
+
+            #text-title{
+                margin-top: 0;
+                margin-bottom: 0;
+                border-left: solid 1px;
+                
+                padding: 10px;
+
+                p{
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                    margin-left: 20px;
+                }
+    
+            }
+
+            p{
+                display: flex;
+                text-align: center;
+            }
+
+            input{
+                margin-left: 110px;
+                margin-top: 20px;
+                
+            }
+
+            #text-price{
+                margin-top: 0;
+                margin-bottom: 0;
+                border-left: solid 1px;
+                text-align: center;
+                padding: 10px;
+
+                p{
+                    margin-left: 90px;
+                    
+                }
+            }
+        } 
+
+        input[type="radio"] {
+            width: 20px; 
+            height: 20px; 
+            border: 2px solid #b2922e;
+            outline: none;
+            transition: 0.3s ease-in-out;
+        }
+
+        input[type="radio"]:checked {
+            background-color: #b2922e;
+        }
+
+
+        .offre-3{
+            h3{
+                background-color: #756722;
+                border-left: solid 1px;
+                border-right: solid 1px;
+                padding: 10px;
+                margin-bottom:0 ;
+                padding-left: 50px;
+
+            }
+
+            .detail-offre{
+                margin-top: 0;
+                margin-bottom: 0;
+        
+                text-align: center;
+                border-top: solid 1px;
+                border-left: solid 1px;
+                border-right: solid 1px;
+                border-bottom: solid 1px;
+                height: 350px;
+                width: 250px;
+    
+                i{
+                    display: block;
+                    text-align: center;
+                    color: #948a54;
+                    margin-left: 80px;
+                }
+
+                
+            }
+
+            #text-title{
+                margin-top: 0;
+                margin-bottom: 0;
+                
+                border-left: solid 1px;
+                border-right:solid 1px ;
+                
+                padding: 10px;
+
+                p{
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                    margin-left: 20px;
+                }
+    
+            }
+
+            p{
+                display: flex;
+
+                text-align: center;
+                
+            }
+
+            input{
+                margin-left: 110px;
+                margin-top: 20px;
+                
+            }
+
+            #text-price{
+                margin-top: 0;
+                margin-bottom: 0;
+                border-left: solid 1px;
+                border-right: solid 1px;
+                text-align: center;
+                padding: 10px;
+
+                p{
+                    margin-left: 90px;
+                }
+            }
+        } 
+
+        input[type="radio"] {
+            appearance: none; 
+            width: 20px; 
+            height: 20px; 
+            border: 2px solid #b2922e; 
+            border-radius: 50%;
+            outline: none;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+        }
+
+        input[type="radio"]:checked::before {
+            content: '';
+            display: block;
+            width: 10px;
+            height: 10px;
+            margin: auto;
+            border-radius: 50%;
+            background: white; 
+        }
+
+    }
