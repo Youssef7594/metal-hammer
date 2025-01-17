@@ -1,0 +1,360 @@
+@font-face{
+    font-family: "ruby";
+    src: url(../Fonts_metalhammer/Rubik_Mono_One/RubikMonoOne-Regular.ttf);
+   } 
+  
+
+.skip-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px 16px;
+    z-index: 100;
+    transition: top 0.3s;
+   
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    margin-top: -100px;
+    position: fixed;
+    width: 100%;
+}
+
+header nav a {
+    color: burlywood;
+    text-decoration: none;
+    margin: 0 15px;
+    gap: 50px;
+}
+.nav-links {
+    display: flex;
+    margin-left: -80px;
+    gap: 15px;
+
+    a{
+        margin-left: 180px;
+    }
+}
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger {
+    margin-left: -80px;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    position: relative;
+}
+
+.hamburger::before,
+.hamburger::after {
+    
+    content: '';
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    transition: all 0.3s;
+}
+
+.hamburger::before {
+    top: -8px;
+}
+
+.hamburger::after {
+    bottom: -8px;
+}
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+.icons{
+    margin: 30px;
+    margin-right: -200px ;
+
+    img{
+        margin-left: 60px;
+    }
+}
+
+ 
+
+  .custom-h3 {
+    font-family: "ruby";
+    font-size: 14px;
+    font-weight: bold; 
+    
+  }
+  
+
+  .container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin-left: 550px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 100px;
+   
+  }
+  
+
+  .image-section {
+    
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 400px
+  }
+  
+  .image-section img {
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .image-flex {
+    max-width: 100%; 
+    height: auto; 
+  }
+  
+  .form-section {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  
+   .text p {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  
+  #form-vict {
+    display: flex;
+    flex-direction: column;
+    
+  } 
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 0.5px solid #060606;
+    border-radius: 4px;
+    outline: none;
+    
+    margin-bottom: 50px;
+    width: 550px;
+  }
+
+  .italic-placeholder::placeholder {
+    font-style: italic;
+    color: darkgray;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+
+  .checkbox-container {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #je-sous{
+    margin-left: 100px;
+    margin-top: -80px;
+  }
+
+  
+   input[type="checkbox"] {
+    margin-right: 8px;
+    margin-top: -70px;
+    width: 60px;
+    height: 150px;
+    accent-color: #4CAF50; 
+  }
+  
+ 
+  .submit-btn {
+    padding: 10px 15px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .my-button {
+    width: 200px;
+    height: 50px;
+    background-color: #766723; 
+    color: black; 
+    padding: 10px 20px; 
+    border: 1px; 
+    border-radius: 5px; 
+    font-size: 16px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+  }
+
+  button[type="submit"] {
+
+    background-color: #766723;
+    color: black;
+    width: 230px;
+    height: 30px;
+  }
+
+  .victor{
+    margin-left: 350px;
+  } 
+  
+
+  footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+
+footer input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.container-footer {
+    width: 1200px;
+    max-width: 100%;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#newsletter {
+    padding: 50px 0 50px 0;
+}
+
+#form-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#newsletter .medias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
+
+#newsletter  div  p {
+    margin: 10px;
+}
+
+
+#newsletter  div:first-of-type div img{
+    margin: 10px;
+}
+
+
+#newsletter .faq div {
+    display: flex;
+    justify-content: space-between;
+    background-color: #67635a;
+    margin-bottom: 5px;
+}
+
+#newsletter .faq {
+    gap: 50px;
+}
+
+#copyright {
+    background-color: #23221e;
+}
+
+.scroll-animation {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.scroll-animation.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #1a1a1a;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}

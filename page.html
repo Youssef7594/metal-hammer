@@ -4,58 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <title>Document</title>
+    <link rel="stylesheet" href="css/pagedeux.css">
     <link rel="stylesheet" href="css/page.css">
+
+    <script src="https://kit.fontawesome.com/3f6c90527c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <title>Document</title>
+    
 </head>
 <body>
     
-<!-- <header>
-
-    La nav bar 
-    <nav>
-        <img id="logo" src="icones_metalhammer/logo.svg" alt="Twitter Icon">
-
-        
-            <ul>
-                <li><a href="">ACCEUIL</a></li>
-                <li><a href="">ÉVÉNEMENTS</a></li>
-                <li><a href="">CONTACT</a></li>
-            </ul>
-
-            <div class="icone">
-
-                <img id="panier" src="icones_metalhammer/panier.svg" alt="image de panier">
-                <img id="profil" src="icones_metalhammer/profil.svg" alt="image de profile">
-            </div>
-
-        
+    <a href="html/index.html" class="skip-link">Passer au contenu principal</a>
+    <header>
+        <div class="logo">
+            <img src="/icones_metalhammer/logo.svg" alt="Logo">
+        </div>
+        <nav class="nav-links">
+            <a href="#">ACCUEIL</a>
+            <a href="#">ÉVENEMENTS</a>
+            <a href="#">CONTACT</a>
+        </nav>
+        <div class="icons">
+            <img src="/icones_metalhammer/panier.svg" alt="Panier"/>
+            <img src="/icones_metalhammer/profil.svg" alt="Profil"/>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+    </header>
 
 
+    <!-- Harysson tu va kiffer t'inquiéte (mais bon c'est pas fini) -->
 
-    </nav>
+    <article id="slogan">
 
+        <div class="texte-slogan">
+            <h1>METAL HAMMER <br> PARADISE 2024</h1>
 
-
-</header> -->
-
-
-<article id="slogan">
-
-    <div class="texte-slogan">
-        <h1>METAL HAMMER <br> PARADISE 2024</h1>
+        </div>
 
 
+    </article>
 
+
+    <div class="miette-de-pain">
+        <p>Home>Sneakers>Événement><strong>inscription</strong></p>
     </div>
-
-
-</article>
-
-
-<div class="miette-de-pain">
-    <p>Home>Sneakers>Événement><strong>inscription</strong></p>
-</div>
 
 
 <article id="tarif">
@@ -190,7 +184,7 @@
 
 
 
-    <form>
+    <form id="form-vict">
         <div class="form-group">
         <label for="surname"><input type="text"name="username" class="italic-placeholder"placeholder="Prénom"></label>
         </div>
@@ -215,6 +209,79 @@
 
 </div>
 </div>
+
+
+
+<footer>
+      
+    <section id="newsletter">
+      <div class="container-footer">
+      <form id="form-footer">
+        <label for="email">Inscrivez-vous à la newsletter</label>
+        <input
+          name="email"
+          type="email"
+          size="30"
+          placeholder="Label"
+          aria-label="Adresse email"
+          required
+        />
+        <input type="submit" value="Je m'inscris" />
+      </form>
+      <!-- Réseaux sociaux -->
+      <div class="medias">
+        <p>Suivez-nous</p>
+        <div>
+          <a href="http://" target="_blank" rel="noopener noreferrer"
+            ><img src="/icones_metalhammer/instagram.svg" alt="Instagram"
+          /></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer"
+            ><img src="/icones_metalhammer/facebook.svg" alt="Facebook"
+          /></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer"
+            ><img src="/icones_metalhammer/twitter.svg" alt="Twitter"
+          /></a>
+        </div>
+      </div>
+      <!-- FAQ -->
+      <div class="faq">
+        <div>
+          <p>Label</p>
+          
+          <img
+            src="/icones_metalhammer/ajout-faq.svg"
+            alt="Icône ajouter"
+          />
+        </div>
+        <div>
+          <p>Label</p>
+          <img
+            src="/icones_metalhammer/ajout-faq.svg"
+            alt="Icône ajouter"
+          />
+        </div>
+        <div>
+          <p>Label</p>
+          <img
+            src="/icones_metalhammer/ajout-faq.svg"
+            alt="Icône ajouter"
+          />
+        </div>
+        <div>
+          <p>Label</p>
+          <img
+            src="/icones_metalhammer/ajout-faq.svg"
+            alt="Icône ajouter"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="copyright">
+      <p><i class="fa-regular fa-copyright"></i>BeFestoch - 2023</p>
+    </section>
+
+        </footer>
+        <script src="..//js/doc.js"></script>
 </body>
 
 </html>
